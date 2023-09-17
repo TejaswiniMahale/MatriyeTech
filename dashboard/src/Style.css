@@ -1,0 +1,317 @@
+.sideBar {
+    color: #fff;
+    padding-top: 50px;
+    
+  }
+  .sidebar_items>a>p{
+    width: 100%;
+    text-align: left;
+    padding: 20px 20px;
+    margin: 0 -4px 0 0;
+    color: #fff;
+  }
+  .sidebar_list {
+    list-style: none;
+    flex-direction: column;
+    display: flex;
+    padding-left: 0;
+  }
+  
+  .sidebar_list li a {
+    display: flex;
+    align-items: center;
+    font-family: "Roboto";
+    font-size: 13px;
+    font-weight: 400 !important;
+    letter-spacing: 0em;
+    text-decoration: none;
+    transition: border-top 0.1s ease;
+    position: relative;
+  }
+  
+  .sidebar_list li a.active > div{ 
+    height:45px;
+    width: 5px;
+    position: relative;
+    border-radius: 5px;
+    left: 5%;
+    background-color: rgba(31,195,223,1)
+  }
+  .sidebar_list li a.active > p{
+    background: rgb(76,3,171);
+    background: linear-gradient(90deg, rgba(76,3,171,1) 0%, rgba(31,195,223,1) 100%);
+  }
+  .profile_img{
+    text-align: center;
+  }
+  .profile_img>img{
+    height:110px;
+    width: 110px;
+    border-radius: 50%;
+  }
+  .sidebar_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .nav_logo>div{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(76, 76, 210);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+  .profile_des{
+    font-size: 13px;
+    color: #8f8e8e;
+    line-height: 0;
+    padding:10px 0px 30px 0px
+
+  }
+  .profile_name{
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  .homePage_Layout{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 50px;
+  }
+  .sidebar_layout{
+    width: 20%;
+    background: rgb(6,1,91);
+background: linear-gradient(180deg, rgba(6,1,91,1) 0%, rgba(93,52,168,1) 100%);
+  }
+  .MainRoutes{
+    width: 80vw;
+  }
+
+  .navbar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar>div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    padding: 5px 40px;
+  }
+  .logo>p{
+    color: #fff;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 800px;
+  }
+  .navbar_logos{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .navbar_profile>img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+  }
+  .logout_btn{
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 7px 15px;
+    font-weight: 400;
+    color: #fff;
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+  }
+  .App{
+    position: relative;
+  }
+  .navbar_layout{
+    position: absolute;
+    width: 100%;
+    top: 25px;
+  }
+  .dashboard{
+    padding: 40px;
+    letter-spacing: 0.5px;
+  }
+  .dashboard_heading{
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .dashboard_Subheading{
+    font-size: 13px;
+    padding-bottom: 20px;
+  }
+  .f{
+    display: flex;
+    align-items: center;
+  }
+  .dashboard_info{
+    justify-content: space-between;
+    padding: 20px;
+    background: rgb(65,5,156);
+    background: linear-gradient(180deg, rgba(65,5,156,1) 26%, rgba(120,32,203,1) 51%, rgba(65,5,156,1) 78%);
+  }
+  .divider{
+    width: 1px;
+    height: 100px;
+    border-left: 1px solid #fff;
+  }
+  .dashboard_info>div>div{
+    justify-content: space-between;
+  }
+  p{
+    margin: 4px;
+  }
+  .text-13{
+    font-size: 13px;
+  } 
+  .b-4{
+    font-weight: 400;
+  }
+  .b-5{
+    font-weight: 500;
+  }
+  .b-6{
+    font-weight: 600;
+  }
+  .b-7{
+    font-weight: 700;
+  }
+  .text_center{
+    text-align: center;
+  }
+  .select-box>select{
+    background: none;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    width: 60px;
+    height: 30px;
+    border: 1px solid #fff;
+  }
+  .searchbar{
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+  }
+  .searchbar>input{
+    background: none;
+    border: none;
+    color: #fff;
+    
+  }
+  textarea:focus, input:focus{
+    outline: none;
+}
+.baches_box{
+  width: 100%;
+  gap: 20px;
+  padding-top: 30px;
+}
+.baches-table{
+  border-collapse:collapse;
+  width: 100%;
+}
+.baches-table>tr>th{
+  font-size: 13px !important;
+  font-weight: 400;
+  padding: 10px 0px;
+}
+.baches-table>tr>td{
+  font-size: 13px !important;
+  font-weight: 400;
+  padding: 10px 0px;
+  text-align: center;
+}
+.ongoing_btn{
+  background: #3a47d5;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  padding: 3px 8px;
+}
+.join_btn{
+  border: none;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 7px 25px;
+    font-weight: 400;
+    color: #fff;
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+}
+.table_h{
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+}
+.line{
+  width: 100%;
+  height: 1px;
+  border-top: 1px solid #fff;
+  margin-top: 20px;
+}
+.justify-between{
+  justify-content: space-between;
+}
+.box_bg{
+  background-color: #3b1fb7;
+}
+.w-100{
+  width: 100%;
+}
+.task_btn{
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  width: 100px;
+  height: 30px;
+}
+.completed{
+  background-color: rgb(3, 205, 3);
+}
+.pending{
+  background-color: orange;
+}
+.canceled{
+  background-color: red;
+}
+.ongoing{
+  background-color: #3a47d5;
+}
+.task_boxex{
+  width: 33%;
+  height: 350px;
+  background-color: #3B1FB7;
+}
+.task-box-header{
+  text-align: center;
+  padding: 10px 0px;
+}
+.bg-1{
+  background: rgb(26,239,255);
+background: linear-gradient(90deg, rgba(26,239,255,1) 1%, rgba(36,0,102,1) 100%);
+}
+.bg-2{
+  background: rgb(95,108,251);
+background: linear-gradient(90deg, rgba(95,108,251,1) 28%, rgba(7,0,85,1) 100%);
+}
+.bg-3{
+  background: rgb(194,95,251);
+  background: linear-gradient(90deg, rgba(194,95,251,1) 28%, rgba(7,0,85,1) 100%);
+}
